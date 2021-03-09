@@ -24,5 +24,11 @@ namespace RaceTrack.RaceTrack.Cars
             Console.WriteLine($"The {Name} is having a hard time stopping!");
             base.Brake();
         }
+
+        // VS code made me add these to implement inherited abstract member
+        public override void StopEngine()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

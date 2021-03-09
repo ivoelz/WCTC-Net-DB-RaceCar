@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace RaceTrack.RaceTrack.Cars
 {
-    public class Minivan : RaceCar
+    public class Bus : RaceCar
     {
-        public Minivan()
+        public Bus()
         {
-            Name = "Minivan";
-            TopSpeed = 80;
+            Name = "Bus";
+            TopSpeed = 60;
         }
 
         public override void StartEngine()

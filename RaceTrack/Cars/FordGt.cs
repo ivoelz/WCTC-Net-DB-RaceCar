@@ -18,5 +18,11 @@ namespace RaceTrack.RaceTrack.Cars
         {
             Console.WriteLine($"The {Name} roars to life!");
         }
+
+        // VS code made me add these to implement inherited abstract member
+        public override void StopEngine()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
